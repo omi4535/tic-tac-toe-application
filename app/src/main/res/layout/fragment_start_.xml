@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frangments.start_Fragment"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:padding="10dp"
+    android:background="@drawable/gradient"
+
+
+    >
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="select the mode"
+      android:textSize="40dp"
+      android:textAlignment="center"
+      android:textColor="#EAA43D"
+      />
+
+  <View
+      android:layout_width="wrap_content"
+      android:layout_height="46dp"
+      android:layout_weight="2" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="play with friends"
+        android:height="75dp"
+        android:width="400dp"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn1"
+
+
+        />
+
+  <View
+      android:layout_width="wrap_content"
+      android:layout_height="153dp"
+      android:layout_weight="1" />
+
+  <Button
+        android:layout_gravity="center_horizontal"
+        android:height="75dp"
+        android:width="400dp"
+        android:text="play with computer "
+        android:textSize="30dp"
+
+        android:textColor="#F8F8F8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn1"
+        />
+</LinearLayout>
