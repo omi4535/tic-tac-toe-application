@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".frangments.start_Fragment"
     android:layout_gravity="center_horizontal"
+
     android:orientation="vertical"
     android:weightSum="9"
     android:padding="10dp"

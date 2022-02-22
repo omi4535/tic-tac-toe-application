@@ -14,6 +14,8 @@ import com.example.tictactoe.frangments.start_Fragment;
 public class MainActivity extends AppCompatActivity {
     private FrameLayout main_frame;
     @Override
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
