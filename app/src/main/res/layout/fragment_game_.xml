@@ -10,21 +10,76 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="9">
+
         <RelativeLayout
-            android:layout_height="match_parent"
-            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
             android:layout_weight="2"
             >
+
+            <TextView
+                android:id="@+id/txt_turn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="turn of O"
+                android:textSize="35dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:text="o : 0"
+                android:textSize="25dp"
+                android:textColor="#005EFF"
                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x : 0"
+                android:textSize="25dp"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="40dp"
+                />
+        </LinearLayout>
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:padding="20dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chessbord"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+            />
         </RelativeLayout>
 
-    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="       reset       "
 
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_btn1"
+            />
+        </RelativeLayout>
+    </LinearLayout>
 
 
 
